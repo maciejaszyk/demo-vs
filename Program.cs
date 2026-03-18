@@ -17,7 +17,7 @@ while (Console.ReadLine() is { } s)
     switch (result)
     {
         case 0:
-            Console.Write("\nGenerating documents...");
+            Console.WriteLine("Generating documents...");
             Utils.GenerateDocuments();
             Console.WriteLine("Done");
             break;
@@ -45,6 +45,9 @@ while (Console.ReadLine() is { } s)
         case 6:
             new StaticIndexesExercises().NumericalSimpleIndexWithInt8Quantization();
             break;
+        
+        case 7:
+            return;
 
         default:
             Console.WriteLine($"Unknown option {s}.");
