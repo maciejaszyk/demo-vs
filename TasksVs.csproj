@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RavenDB.Client" Version="7.0.2" />
-    <PackageReference Include="RavenDB.Embedded" Version="7.0.2" />
+    <PackageReference Include="RavenDB.Client" Version="7.2.1" />
+    <PackageReference Include="RavenDB.Embedded" Version="7.2.1" />
     <PackageReference Include="System.Numerics.Tensors" Version="10.0.0-preview.4.25258.110" />
   </ItemGroup>
 

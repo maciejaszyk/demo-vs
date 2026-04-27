@@ -15,7 +15,8 @@ public static class Utils
                                  4 - Test auto-index with RavenVector
                                  5 - Test static index
                                  6 - Test static index with quantization
-                                 7 - Quit
+                                 7 - Test embeddings generation task
+                                 8 - Quit
                                  """;
 
         Console.WriteLine(helpTable);

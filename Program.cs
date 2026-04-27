@@ -5,7 +5,6 @@ using TasksVs.Backend;
 _ = DocumentStoreHolder.Store;
 Utils.PrintHelp();
 
-
 while (Console.ReadLine() is { } s)
 {
     if (int.TryParse(s, out var result) == false)
@@ -47,6 +46,10 @@ while (Console.ReadLine() is { } s)
             break;
         
         case 7:
+            new EmbeddingsGenerationTasksExercises().SimpleEmbeddingsGenerationTask();
+            break;
+            
+        case 8:
             return;
 
         default:
